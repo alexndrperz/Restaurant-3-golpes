@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+/* #region General*/
+:root  {
+    --primary-color:#027d00;
+    --primary-color-light:#fffcfa;
+    --primary-color-dark:#db6e09;
+    --text-dark:#18181b;
+    --text-light:#6b7280;
+    --white:#ffff;
+    --max-width:1200px;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  /*Para que se adapte a la pantalla*/
+}
+
+.section-container {
+   max-width: var(--max-width);
+   margin: auto;
+   padding: 5rem 1rem; 
+}
+
+.section-header {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: var(--text-dark);
+    text-align: center;
+}
+
+.section-description {
+    color: var(--text-light);
+    line-height: 1.75rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    border: none;
+    white-space: nowrap;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.logo a span {
+    color: var(--text-dark);
+}
+
+img {
+    display: flex;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    transition:0.3s
+}
+
+ul {
+    list-style: none;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+/* #endregion */
+
+nav {
+    position: fixed;
+    isolation: isolate;
+    width: 100%;
+    z-index: 9;
+}
+
+.nav-header {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+.nav-logo a {
+    color: var(--white)
+}
+
+.nav-menu-btn {
+    font-size: 1.5rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.nav-links {
+    position:absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    padding:2rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--primary-color-light);
+    transition: 0.5s;
+    z-index: -1;
+    transform: translateY(-100%);
+}
+
+.nav-links.open {
+    transform:  translateY(0);
+}
+
+.nav-links  {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+  
+
+  
+  
+
+
+
+  
+
+
+
+
+    
+
+    
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+    
+
