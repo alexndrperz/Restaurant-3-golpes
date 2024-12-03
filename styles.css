@@ -5,7 +5,7 @@
 :root  {
     --primary-color:#027d00;
     --primary-color-light:#fffcfa;
-    --primary-color-dark:#db6e09;
+    --primary-color-dark:#039f00;
     --text-dark:#18181b;
     --text-light:#6b7280;
     --white:#ffff;
@@ -136,10 +136,50 @@ nav {
     transform:  translateY(0);
 }
 
-.nav-links  {
+.nav-links a  {
     font-weight: 500;
     color: var(--primary-color);
 }
+
+.nav-links a:hover {
+    color: var(--text-dark);
+}
+
+.nav-btn {
+    display: none;
+}
+
+.header-container {
+    display: grid;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.header-image img {
+    max-width: 600px;
+    margin-inline: auto;
+}
+.header-content h1 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    color:var(--text-dark);
+    text-align: center;
+}
+
+.header-content h1 span {
+    color: var(--primary-color);
+}
+
+.header-content .section-description {
+    margin-bottom: 2rem;
+}
+
+.header-btn {
+    text-align: center;
+}
+
 
 
 
