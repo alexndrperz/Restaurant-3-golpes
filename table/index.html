@@ -1,0 +1,81 @@
+<!--Basado en https://www.figma.com/design/xoDdLNL6853kp8mdaSRVF1/Data-Table-v2-(Community)?node-id=0-1&node-type=canvas&t=JjonErrpppz04B3b-0 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header class="title-filters">
+            <h2>Table Heading</h2>
+        </header>
+
+        <section class="menu-amount">
+            <nav class="menu">
+                <li>All</li>
+                <li>Paid</li>
+                <li>Unpaid</li>
+                <li>Overdue</li>
+            </nav>
+
+            <p class="text-amount">
+                Total payable amount <span>$900.00</span> USD
+            </p>
+        </section>
+
+        <hr class="table-divisor">
+
+        <section class="table-container">
+            <section class="table-header">
+
+                <section class="search-inputs">
+                    <div class="filter-handler-btn">
+                        <div class="figure">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_134_771)">
+                                    <path d="M12 12L20 4V0H0V4L8 12V20L12 16V12Z" fill="#8B83BA" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_134_771">
+                                        <rect width="20" height="20" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span>Filter</span>
+                    </div>
+
+                    <div class="search-input">
+                        <input type="text">
+                    </div>
+                </section>
+
+                <button class="pay-dues btn">
+                    PAY DUES
+                </button>
+            </section>
+
+
+            <table>
+
+            </table>
+            <div class="footer-paginator">
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+:root {
+    --primary-general:#6D5BD0;
+    --primary-font-color:#6E6893;
+    --stroke:#C6C2DE;
+    --stripe:#F4F2FF;
+}
+
+main  {
+    padding: 50px 100px;
+    font-family: 'Inter', sans-serif;
+}
+
+p,hr {
+    margin: 0px
+}
+
+body {
+    background-color: #F2F0F9;
+}
+
+.title-filters{
+    color: var(--primary-font-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*#region Menu*/
+.menu-amount {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primary-font-color);
+}
+
+
+.menu {
+    display: flex;
+    gap: 31px;
+    margin-bottom: 15px;
+}
+
+
+.menu li  {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-amount span {
+    color: var(--primary-general);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.table-divisor {
+    height: 1px;
+    margin-bottom: 20px;
+
+}
+/*#endregion*/
+
+
+/*#region Table Handler*/
+.table-container {
+    display: flex;
+    background: #fff;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    height: 100px;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.20);
+}
+
+.table-header {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+
+.search-inputs {
+    display: flex;
+    gap: 20px;
+}
+
+/*#region Boton*/
+.figure {
+    font-size: 20px;
+}
+
+.filter-handler-btn {
+    display: flex;
+    gap: 10px;
+    border: 1px solid var(--stroke);
+    width: fit-content;
+    align-items: center;
+    padding: 8px 11px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.filter-handler-btn:hover {
+    border: 1px solid var(--primary-general);
+}
+
+/*#endregion*/
+
+/*#region Input Search*/
+.search-input {
+    height: 40px;
+    width: 392px;
+    background-color: var(--stripe) ;
+    border-radius: 6px;
+}
+
+.search-input input{
+    background-color: transparent;
+    border: 0px;
+
+}
+
+.search-input input:focus-visible{
+    outline: 0px;
+}
+.pay-dues  {
+    padding: 10px;
+    box-shadow: 0 0 0;
+    color: white;
+    border: 1px;
+    background-color: var(--primary-general);
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+
+/*#endregion*/
+
+/*#endregion*/
