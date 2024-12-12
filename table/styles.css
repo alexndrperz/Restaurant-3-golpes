@@ -112,21 +112,51 @@ body {
 
 /*#region Input Search*/
 .search-input {
-    height: 40px;
     width: 392px;
     background-color: var(--stripe) ;
     border-radius: 6px;
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: border 0.3s;
 }
+
+.search-input:hover {
+    border: 1px solid var(--primary-general);
+}
+
+
+.search-input:has(input:focus) {
+    border: 1px solid var(--primary-general);
+}
+
+
 
 .search-input input{
     background-color: transparent;
     border: 0px;
+    width: 100%;
+    color: var(--primary-font-color);
 
 }
 
 .search-input input:focus-visible{
     outline: 0px;
 }
+
+.search-input input::placeholder {
+    color:  var(--primary-font-color);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.search-input figure {
+    width: fit-content;
+    margin: 0px;
+}
+
+
 .pay-dues  {
     padding: 10px;
     box-shadow: 0 0 0;
